@@ -10,6 +10,8 @@ The implementation, 30-epoch training run, held-out tests, exports and benchmark
 
 See [the full measured report](outputs/report.md), [training curves](outputs/training_curves.png), [machine-readable metrics](outputs/metrics), and [submission steps](SUBMISSION_CHECKLIST.md). No distance-accuracy score is claimed because these 2D annotations provide no object-distance ground truth. This is a prototype evaluated on a limited custom subset.
 
+For an explanation of the work, decisions and results, read [my project documentation](PROJECT_DOCUMENTATION.md).
+
 ![Held-out detection and depth gallery](outputs/demo/gallery.jpg)
 
 [Dataset slideshow](outputs/demo/dataset_slideshow.mp4) | [Optional bird's-eye road view](outputs/bev/road_bev.jpg)
