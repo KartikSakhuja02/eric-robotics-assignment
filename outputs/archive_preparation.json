@@ -1,0 +1,33 @@
+{
+  "selection": [
+    {
+      "version": "v1.0-train",
+      "candidate_images": 5353,
+      "selected_images": 1000,
+      "recordings": 252,
+      "max_images_per_recording": 15,
+      "selected_frames_by_class": {
+        "cone": 815,
+        "barrier": 712
+      }
+    },
+    {
+      "version": "v1.0-val",
+      "candidate_images": 1357,
+      "selected_images": 300,
+      "recordings": 64,
+      "max_images_per_recording": 16,
+      "selected_frames_by_class": {
+        "cone": 240,
+        "barrier": 205
+      }
+    }
+  ],
+  "new_metadata_bytes": 1007605647,
+  "new_image_bytes": 220423519,
+  "selected_image_bytes": 220423519,
+  "starting_free_gib": 25.864456176757812,
+  "remaining_free_gib": 24.71923065185547,
+  "archives_preserved": true,
+  "selection_plan": "C:\\Users\\karti\\OneDrive\\Documents\\Eric Robotics\\data\\raw\\nuimages\\selection_plan.json"
+}

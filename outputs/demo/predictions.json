@@ -1,0 +1,4448 @@
+[
+  {
+    "filename": "bdd_val_c2ccc2a6-300804e4.jpg",
+    "detections": [
+      {
+        "class_id": 2,
+        "class_name": "stop_sign",
+        "confidence": 0.7585816979408264,
+        "bbox_xyxy": [
+          1133.355712890625,
+          16.91644287109375,
+          1205.828369140625,
+          93.67266845703125
+        ],
+        "distance": {
+          "depth_m": 6.2535644025719375,
+          "calibration_source": "assumed_fov",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "size_prior",
+          "reference_point": "object depth from projected height",
+          "assumed_object_height_m": 0.75,
+          "assumptions": [
+            "configured physical height",
+            "small foreshortening and depth variation across object"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "filename": "bdd_val_c644e81b-53cbf3b6.jpg",
+    "detections": [
+      {
+        "class_id": 2,
+        "class_name": "stop_sign",
+        "confidence": 0.848831832408905,
+        "bbox_xyxy": [
+          209.8319091796875,
+          55.08343505859375,
+          287.38134765625,
+          137.7095947265625
+        ],
+        "distance": {
+          "depth_m": 5.809298192350567,
+          "calibration_source": "assumed_fov",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "size_prior",
+          "reference_point": "object depth from projected height",
+          "assumed_object_height_m": 0.75,
+          "assumptions": [
+            "configured physical height",
+            "small foreshortening and depth variation across object"
+          ]
+        }
+      },
+      {
+        "class_id": 2,
+        "class_name": "stop_sign",
+        "confidence": 0.661416232585907,
+        "bbox_xyxy": [
+          1081.6923828125,
+          175.605224609375,
+          1104.37158203125,
+          200.39306640625
+        ],
+        "distance": {
+          "depth_m": 19.364332075917716,
+          "calibration_source": "assumed_fov",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "size_prior",
+          "reference_point": "object depth from projected height",
+          "assumed_object_height_m": 0.75,
+          "assumptions": [
+            "configured physical height",
+            "small foreshortening and depth variation across object"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "filename": "bdd_val_c088650e-f71b7011.jpg",
+    "detections": [
+      {
+        "class_id": 2,
+        "class_name": "stop_sign",
+        "confidence": 0.8990225791931152,
+        "bbox_xyxy": [
+          1168.2119140625,
+          91.3128662109375,
+          1246.099609375,
+          176.37640380859375
+        ],
+        "distance": {
+          "depth_m": 5.642840793553188,
+          "calibration_source": "assumed_fov",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "size_prior",
+          "reference_point": "object depth from projected height",
+          "assumed_object_height_m": 0.75,
+          "assumptions": [
+            "configured physical height",
+            "small foreshortening and depth variation across object"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "filename": "bdd_val_c0e90884-ab3e26af.jpg",
+    "detections": [
+      {
+        "class_id": 2,
+        "class_name": "stop_sign",
+        "confidence": 0.8959093689918518,
+        "bbox_xyxy": [
+          1033.7843017578125,
+          190.65670776367188,
+          1114.3233642578125,
+          276.1611328125
+        ],
+        "distance": {
+          "depth_m": 5.613744548611274,
+          "calibration_source": "assumed_fov",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "size_prior",
+          "reference_point": "object depth from projected height",
+          "assumed_object_height_m": 0.75,
+          "assumptions": [
+            "configured physical height",
+            "small foreshortening and depth variation across object"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "filename": "nuim_6521377b8b6942a19246fc010c584b7d.jpg",
+    "detections": [
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.8854679465293884,
+        "bbox_xyxy": [
+          1099.75732421875,
+          558.54931640625,
+          1204.527587890625,
+          608.6986083984375
+        ],
+        "distance": {
+          "depth_m": 16.199250708293828,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            17.854016693192264,
+            -4.236674077946235,
+            -2.220446049250313e-16
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.8789850473403931,
+        "bbox_xyxy": [
+          2.1932029724121094,
+          584.68212890625,
+          265.70794677734375,
+          829.13525390625
+        ],
+        "distance": {
+          "depth_m": 5.587490675536232,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            7.286583914414481,
+            3.0671265089446553,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.8420047760009766,
+        "bbox_xyxy": [
+          230.76156616210938,
+          567.4496459960938,
+          353.15374755859375,
+          737.67333984375
+        ],
+        "distance": {
+          "depth_m": 7.687732583197857,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            9.387901340742125,
+            3.231861269257402,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.786194920539856,
+        "bbox_xyxy": [
+          1197.6082763671875,
+          563.09130859375,
+          1262.583251953125,
+          611.2208251953125
+        ],
+        "distance": {
+          "depth_m": 15.795224765536677,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            17.44460399283184,
+            -5.115286507400049,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.7310183048248291,
+        "bbox_xyxy": [
+          1009.9578857421875,
+          553.0554809570312,
+          1062.5791015625,
+          598.5726318359375
+        ],
+        "distance": {
+          "depth_m": 17.810930285977026,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            19.4731589637856,
+            -3.025031710826901,
+            -2.220446049250313e-16
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.6408724784851074,
+        "bbox_xyxy": [
+          989.520751953125,
+          551.8399047851562,
+          1017.8477783203125,
+          592.3019409179688
+        ],
+        "distance": {
+          "depth_m": 18.932114802987062,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            20.596178504672444,
+            -2.730933857776683,
+            2.220446049250313e-16
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.5966598987579346,
+        "bbox_xyxy": [
+          17.235172271728516,
+          499.6504211425781,
+          86.55699920654297,
+          525.5238037109375
+        ],
+        "distance": {
+          "depth_m": 54.5976031334791,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            56.48381391893444,
+            33.40200746523429,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.587212085723877,
+        "bbox_xyxy": [
+          1581.805419921875,
+          586.662109375,
+          1599.4873046875,
+          626.5648193359375
+        ],
+        "distance": {
+          "depth_m": 13.807876222951451,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            15.436540394383606,
+            -8.491741083881163,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.5387343764305115,
+        "bbox_xyxy": [
+          1061.494873046875,
+          574.06005859375,
+          1083.1297607421875,
+          606.0928344726562
+        ],
+        "distance": {
+          "depth_m": 16.626648503267425,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            18.287181836158105,
+            -3.2959576937970443,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.4681292772293091,
+        "bbox_xyxy": [
+          861.2947998046875,
+          549.9732055664062,
+          875.073486328125,
+          575.7506713867188
+        ],
+        "distance": {
+          "depth_m": 22.694446728958596,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            24.37001551754046,
+            -0.869730657430274,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.4437628388404846,
+        "bbox_xyxy": [
+          0.12857437133789062,
+          553.70166015625,
+          67.47093963623047,
+          706.5213012695312
+        ],
+        "distance": {
+          "depth_m": 8.771650048597975,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            10.485748758351559,
+            5.503712854472485,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.4270109534263611,
+        "bbox_xyxy": [
+          981.6553955078125,
+          550.22265625,
+          1003.6866455078125,
+          587.63623046875
+        ],
+        "distance": {
+          "depth_m": 19.850126014800097,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            21.514456003146094,
+            -2.6922538585289746,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.3473360240459442,
+        "bbox_xyxy": [
+          969.872314453125,
+          550.0781860351562,
+          993.0791015625,
+          581.0698852539062
+        ],
+        "distance": {
+          "depth_m": 21.298956935902517,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            22.96327086093669,
+            -2.7025483239410897,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.30034562945365906,
+        "bbox_xyxy": [
+          1053.5902099609375,
+          554.0968017578125,
+          1101.475341796875,
+          602.7991943359375
+        ],
+        "distance": {
+          "depth_m": 17.110840560443876,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            18.770369122680883,
+            -3.4628032918103604,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.2915691137313843,
+        "bbox_xyxy": [
+          0.0,
+          500.7249450683594,
+          20.493892669677734,
+          553.9378662109375
+        ],
+        "distance": {
+          "depth_m": 30.00966909374881,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            31.809171596514545,
+            19.355081064466813,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.2846371531486511,
+        "bbox_xyxy": [
+          1070.058349609375,
+          557.1318359375,
+          1197.3175048828125,
+          608.0213623046875
+        ],
+        "distance": {
+          "depth_m": 16.30760180727998,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            17.96366197268371,
+            -4.025645202053086,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.25069499015808105,
+        "bbox_xyxy": [
+          1128.131591796875,
+          560.718505859375,
+          1204.596923828125,
+          611.17626953125
+        ],
+        "distance": {
+          "depth_m": 15.855142114446888,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            17.50934935719785,
+            -4.326208843423723,
+            0.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "filename": "nuim_9c61adb6b8ad4b64b4c79cf05ee8f836.jpg",
+    "detections": [
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.8828216791152954,
+        "bbox_xyxy": [
+          1167.306396484375,
+          583.740234375,
+          1381.763427734375,
+          817.4227905273438
+        ],
+        "distance": {
+          "depth_m": 5.804287568270129,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            7.471868734170901,
+            -2.0863378799901295,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.834997296333313,
+        "bbox_xyxy": [
+          1007.349365234375,
+          535.41748046875,
+          1079.1322021484375,
+          647.8018188476562
+        ],
+        "distance": {
+          "depth_m": 12.224807996014867,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            13.892265557378208,
+            -2.1405287621768876,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.7928689122200012,
+        "bbox_xyxy": [
+          1096.318115234375,
+          555.2950439453125,
+          1220.841796875,
+          734.577392578125
+        ],
+        "distance": {
+          "depth_m": 7.827538844527084,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            9.495193205637365,
+            -2.085078484441154,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.7759165167808533,
+        "bbox_xyxy": [
+          980.664794921875,
+          532.10205078125,
+          1032.7576904296875,
+          624.4306640625
+        ],
+        "distance": {
+          "depth_m": 14.38222537151845,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            16.049962424159297,
+            -2.106249436427705,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.7648756504058838,
+        "bbox_xyxy": [
+          1051.0186767578125,
+          544.5632934570312,
+          1133.7103271484375,
+          681.785400390625
+        ],
+        "distance": {
+          "depth_m": 10.027369112496203,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            11.694734647175146,
+            -2.1439452560674095,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.7387101054191589,
+        "bbox_xyxy": [
+          957.9519653320312,
+          525.0263671875,
+          1008.1729125976562,
+          612.0338134765625
+        ],
+        "distance": {
+          "depth_m": 15.864506630758276,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            17.53275947977716,
+            -2.029760311106348,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.6303694248199463,
+        "bbox_xyxy": [
+          915.7760620117188,
+          515.858154296875,
+          953.2330322265625,
+          581.3870239257812
+        ],
+        "distance": {
+          "depth_m": 21.25429121721197,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            22.923420721299884,
+            -1.9149505332334662,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.5566092729568481,
+        "bbox_xyxy": [
+          899.69189453125,
+          517.1170654296875,
+          922.1408081054688,
+          563.91015625
+        ],
+        "distance": {
+          "depth_m": 26.339081775186543,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            28.00852476277543,
+            -1.8906067614983963,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.5280970931053162,
+        "bbox_xyxy": [
+          933.2354125976562,
+          518.98876953125,
+          971.0363159179688,
+          589.6109008789062
+        ],
+        "distance": {
+          "depth_m": 19.47860771216404,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            21.147020877954994,
+            -2.0226759969258454,
+            -2.220446049250313e-16
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.5224688649177551,
+        "bbox_xyxy": [
+          1498.9691162109375,
+          598.1940307617188,
+          1598.7005615234375,
+          811.2737426757812
+        ],
+        "distance": {
+          "depth_m": 5.878644212055783,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            7.538129634144977,
+            -3.410409435244567,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.5112340450286865,
+        "bbox_xyxy": [
+          664.1202392578125,
+          498.054443359375,
+          705.4207763671875,
+          555.3937377929688
+        ],
+        "distance": {
+          "depth_m": 29.854257523849135,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            31.55450492768368,
+            3.127401865301156,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.5092509984970093,
+        "bbox_xyxy": [
+          939.9522705078125,
+          520.7435302734375,
+          975.64501953125,
+          591.856689453125
+        ],
+        "distance": {
+          "depth_m": 19.043256556839086,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            20.711417297481596,
+            -2.0616441192804658,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.4856325685977936,
+        "bbox_xyxy": [
+          633.0880737304688,
+          495.77490234375,
+          698.25634765625,
+          555.917724609375
+        ],
+        "distance": {
+          "depth_m": 29.607138969074192,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            31.309931700990454,
+            3.5448784187434015,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.48032745718955994,
+        "bbox_xyxy": [
+          924.3237915039062,
+          517.6024169921875,
+          963.2483520507812,
+          586.6490478515625
+        ],
+        "distance": {
+          "depth_m": 20.084265742884323,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            21.75311438210555,
+            -1.9546803043194392,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.4327714443206787,
+        "bbox_xyxy": [
+          943.787353515625,
+          523.2435302734375,
+          985.9349365234375,
+          600.0867919921875
+        ],
+        "distance": {
+          "depth_m": 17.607100978409935,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            19.275575900595236,
+            -2.0026735282818375,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.4069961905479431,
+        "bbox_xyxy": [
+          605.4174194335938,
+          497.0587158203125,
+          699.5407104492188,
+          554.9874877929688
+        ],
+        "distance": {
+          "depth_m": 30.03022501746537,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            31.735241013219536,
+            3.906149399951289,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.2961254119873047,
+        "bbox_xyxy": [
+          1082.091552734375,
+          505.33355712890625,
+          1169.894287109375,
+          563.1781005859375
+        ],
+        "distance": {
+          "depth_m": 26.3692704074877,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            28.011415661976926,
+            -6.354026496638305,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.27786126732826233,
+        "bbox_xyxy": [
+          681.2327880859375,
+          497.33154296875,
+          710.214111328125,
+          553.2086181640625
+        ],
+        "distance": {
+          "depth_m": 30.902228804266574,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            32.60155661816632,
+            2.971499714643988,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.269067645072937,
+        "bbox_xyxy": [
+          1060.5784912109375,
+          502.8599548339844,
+          1173.982421875,
+          578.3885498046875
+        ],
+        "distance": {
+          "depth_m": 21.821539471207686,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            23.47117331416402,
+            -5.105550901567256,
+            0.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "filename": "nuim_bc91d2b1306b454bbae2104d48375e2c.jpg",
+    "detections": [
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.6476650238037109,
+        "bbox_xyxy": [
+          1134.046875,
+          511.5391540527344,
+          1173.8267822265625,
+          528.2923583984375
+        ],
+        "distance": {
+          "depth_m": 41.05243872667362,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            42.80581387332727,
+            -10.510287648663653,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.6356105804443359,
+        "bbox_xyxy": [
+          529.3692016601562,
+          498.51806640625,
+          600.2297973632812,
+          537.8472900390625
+        ],
+        "distance": {
+          "depth_m": 33.835570965470986,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            35.489516873893294,
+            6.953127091241444,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.5273576378822327,
+        "bbox_xyxy": [
+          612.1062622070312,
+          499.0644836425781,
+          639.563232421875,
+          534.0562744140625
+        ],
+        "distance": {
+          "depth_m": 36.249237759788464,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            37.910304848947725,
+            5.713087869475099,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.4110388457775116,
+        "bbox_xyxy": [
+          597.5538330078125,
+          499.3271484375,
+          618.4158935546875,
+          538.0841674804688
+        ],
+        "distance": {
+          "depth_m": 33.70143394162999,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            35.36201888464307,
+            5.783594236096116,
+            2.220446049250313e-16
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.3312520980834961,
+        "bbox_xyxy": [
+          598.5270385742188,
+          498.3851623535156,
+          629.7030029296875,
+          536.3154296875
+        ],
+        "distance": {
+          "depth_m": 34.774604366697325,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            36.4351286481948,
+            5.800327810779053,
+            0.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "filename": "nuim_4525b73f31124ab590ee7bf586c6de90.jpg",
+    "detections": [
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.8226775527000427,
+        "bbox_xyxy": [
+          1058.7940673828125,
+          501.71905517578125,
+          1102.128173828125,
+          559.9453735351562
+        ],
+        "distance": {
+          "depth_m": 24.484870924191753,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            26.205483109206316,
+            -4.83596306751476,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.8188351392745972,
+        "bbox_xyxy": [
+          1087.6759033203125,
+          503.27978515625,
+          1140.7041015625,
+          568.989013671875
+        ],
+        "distance": {
+          "depth_m": 21.963601408199935,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            23.684625874732113,
+            -4.9227675034957254,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.7271162867546082,
+        "bbox_xyxy": [
+          564.629638671875,
+          508.5654296875,
+          589.4257202148438,
+          554.3680419921875
+        ],
+        "distance": {
+          "depth_m": 26.243117912284408,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            27.907097118931997,
+            5.143970865812398,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.6809430122375488,
+        "bbox_xyxy": [
+          1032.512939453125,
+          500.6300354003906,
+          1072.56884765625,
+          552.108642578125
+        ],
+        "distance": {
+          "depth_m": 27.183938248353776,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            28.904272456771995,
+            -4.7717994320399795,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.6702985167503357,
+        "bbox_xyxy": [
+          1173.503662109375,
+          538.0166015625,
+          1201.4012451171875,
+          586.030029296875
+        ],
+        "distance": {
+          "depth_m": 18.383776322779546,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            20.10620345319618,
+            -5.18989678881776,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.6607763171195984,
+        "bbox_xyxy": [
+          1009.2528076171875,
+          498.8157653808594,
+          1038.0169677734375,
+          542.5947265625
+        ],
+        "distance": {
+          "depth_m": 31.37788562232854,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            33.098494104875435,
+            -4.796423929614091,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.6227464079856873,
+        "bbox_xyxy": [
+          1014.71923828125,
+          498.1181335449219,
+          1042.431640625,
+          546.2147216796875
+        ],
+        "distance": {
+          "depth_m": 29.636631179026992,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            31.35632121622426,
+            -4.644558598034121,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.5484437346458435,
+        "bbox_xyxy": [
+          995.921142578125,
+          497.6753234863281,
+          1020.2354736328125,
+          540.570556640625
+        ],
+        "distance": {
+          "depth_m": 32.43717301455952,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            34.15648629785865,
+            -4.56243313011035,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.4758074879646301,
+        "bbox_xyxy": [
+          1130.5018310546875,
+          507.9725646972656,
+          1181.463623046875,
+          581.8162841796875
+        ],
+        "distance": {
+          "depth_m": 19.157985591421177,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            20.878951217923163,
+            -4.928236986532181,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.42093658447265625,
+        "bbox_xyxy": [
+          1119.5765380859375,
+          506.72662353515625,
+          1162.472412109375,
+          575.2020874023438
+        ],
+        "distance": {
+          "depth_m": 20.509848989252987,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            22.231452368487812,
+            -5.032884250706815,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.34082654118537903,
+        "bbox_xyxy": [
+          1229.0972900390625,
+          494.43267822265625,
+          1357.96142578125,
+          560.6573486328125
+        ],
+        "distance": {
+          "depth_m": 24.31507062620743,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            26.058994924151765,
+            -8.94092745036978,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.30296796560287476,
+        "bbox_xyxy": [
+          1156.3062744140625,
+          533.85400390625,
+          1183.3143310546875,
+          582.8081665039062
+        ],
+        "distance": {
+          "depth_m": 18.969746580548602,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            20.69161743328697,
+            -5.088660491480398,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.2908293902873993,
+        "bbox_xyxy": [
+          885.15087890625,
+          498.2624816894531,
+          898.2655029296875,
+          519.78564453125
+        ],
+        "distance": {
+          "depth_m": 49.64734825249885,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            51.35533737317242,
+            -2.471766343410407,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.28979194164276123,
+        "bbox_xyxy": [
+          888.57177734375,
+          499.6121826171875,
+          898.8397216796875,
+          520.4889526367188
+        ],
+        "distance": {
+          "depth_m": 48.770160628688295,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            50.4783037044534,
+            -2.5038182397394504,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.27074921131134033,
+        "bbox_xyxy": [
+          1163.693603515625,
+          539.3896484375,
+          1197.2440185546875,
+          585.4229736328125
+        ],
+        "distance": {
+          "depth_m": 18.49167394183549,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            20.213692253807054,
+            -5.117317187514979,
+            2.220446049250313e-16
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.25681552290916443,
+        "bbox_xyxy": [
+          1574.3377685546875,
+          495.0823974609375,
+          1597.9217529296875,
+          529.4125366210938
+        ],
+        "distance": {
+          "depth_m": 41.54741596600293,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            43.38393267729079,
+            -25.14424298318679,
+            0.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "filename": "nuim_fc281ef0e92f4704b36729dd1b6e3e15.jpg",
+    "detections": [
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.7207497954368591,
+        "bbox_xyxy": [
+          352.1257019042969,
+          470.0933837890625,
+          372.3089599609375,
+          505.06988525390625
+        ],
+        "distance": {
+          "depth_m": 48.87195752962154,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            50.72411842986658,
+            16.473319824008737,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.678524374961853,
+        "bbox_xyxy": [
+          322.4305725097656,
+          465.40313720703125,
+          347.2357177734375,
+          512.5143432617188
+        ],
+        "distance": {
+          "depth_m": 40.61274046230489,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            42.452149236945665,
+            14.590593313931784,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.6672410368919373,
+        "bbox_xyxy": [
+          387.7519226074219,
+          470.95953369140625,
+          405.36041259765625,
+          508.498291015625
+        ],
+        "distance": {
+          "depth_m": 45.31967492233262,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            47.16203597188166,
+            14.021331223378645,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.6561575531959534,
+        "bbox_xyxy": [
+          938.4764404296875,
+          476.01806640625,
+          958.38671875,
+          507.42919921875
+        ],
+        "distance": {
+          "depth_m": 51.466558414523405,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            53.26070856501661,
+            -6.537020234142766,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.6271528005599976,
+        "bbox_xyxy": [
+          970.945556640625,
+          477.6799011230469,
+          1003.3262939453125,
+          518.170166015625
+        ],
+        "distance": {
+          "depth_m": 39.84251978434454,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            41.62635622950181,
+            -6.281622615570155,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.6232763528823853,
+        "bbox_xyxy": [
+          1004.625732421875,
+          478.5963439941406,
+          1035.71826171875,
+          524.486572265625
+        ],
+        "distance": {
+          "depth_m": 35.15003714407135,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            36.92896054372128,
+            -6.463770536863159,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.6208521723747253,
+        "bbox_xyxy": [
+          956.532470703125,
+          476.05865478515625,
+          977.736328125,
+          510.61370849609375
+        ],
+        "distance": {
+          "depth_m": 47.385088773719744,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            49.17490282135363,
+            -6.719346569692217,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.610205352306366,
+        "bbox_xyxy": [
+          1033.2200927734375,
+          499.08782958984375,
+          1051.1341552734375,
+          528.1228637695312
+        ],
+        "distance": {
+          "depth_m": 32.90661197507302,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            34.68298493772998,
+            -6.6275625691671936,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.6059368252754211,
+        "bbox_xyxy": [
+          276.08160400390625,
+          460.3309631347656,
+          298.37841796875,
+          504.9186706542969
+        ],
+        "distance": {
+          "depth_m": 47.86891634387485,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            49.726884552714836,
+            19.044149336725795,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.5827001929283142,
+        "bbox_xyxy": [
+          300.3193359375,
+          464.1096496582031,
+          322.7129821777344,
+          507.48077392578125
+        ],
+        "distance": {
+          "depth_m": 45.26336303198581,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            47.113801571258634,
+            17.11564210872591,
+            2.220446049250313e-16
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.5184726119041443,
+        "bbox_xyxy": [
+          993.6609497070312,
+          478.610595703125,
+          1028.40673828125,
+          523.3324584960938
+        ],
+        "distance": {
+          "depth_m": 35.92566836726326,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            37.705635348292105,
+            -6.345563425803742,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.507855236530304,
+        "bbox_xyxy": [
+          1083.3349609375,
+          477.4869384765625,
+          1128.2626953125,
+          515.0983276367188
+        ],
+        "distance": {
+          "depth_m": 42.52482002627796,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            44.299526289212004,
+            -10.720974125291713,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.4988594055175781,
+        "bbox_xyxy": [
+          1329.76708984375,
+          485.07598876953125,
+          1367.092529296875,
+          507.939453125
+        ],
+        "distance": {
+          "depth_m": 49.791776951974896,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            51.542830847516264,
+            -22.3358851038271,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.4609452486038208,
+        "bbox_xyxy": [
+          929.9339599609375,
+          476.6172790527344,
+          949.414794921875,
+          505.2616882324219
+        ],
+        "distance": {
+          "depth_m": 54.672811849380636,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            56.4699158932586,
+            -6.56595809349413,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.4372290372848511,
+        "bbox_xyxy": [
+          944.2672119140625,
+          476.095947265625,
+          966.9104614257812,
+          508.9351806640625
+        ],
+        "distance": {
+          "depth_m": 49.45126775645611,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            51.24345088040147,
+            -6.560829946979266,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.4354316294193268,
+        "bbox_xyxy": [
+          386.4329528808594,
+          469.2646789550781,
+          410.11566162109375,
+          507.6139831542969
+        ],
+        "distance": {
+          "depth_m": 46.33259582176163,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            48.17656857945688,
+            14.270411544408145,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.41426166892051697,
+        "bbox_xyxy": [
+          346.3135986328125,
+          467.2431945800781,
+          367.07354736328125,
+          507.2987365722656
+        ],
+        "distance": {
+          "depth_m": 46.10840433233754,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            47.95604818317008,
+            15.74815204628993,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.35432329773902893,
+        "bbox_xyxy": [
+          1017.2547607421875,
+          480.82733154296875,
+          1049.495361328125,
+          527.7810668945312
+        ],
+        "distance": {
+          "depth_m": 33.10932329095015,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            34.88638989417592,
+            -6.436486600888308,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.32009702920913696,
+        "bbox_xyxy": [
+          986.8524169921875,
+          477.98492431640625,
+          1011.478271484375,
+          521.3644409179688
+        ],
+        "distance": {
+          "depth_m": 37.326342219380614,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            39.10790698010771,
+            -6.241236209441377,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.2878037095069885,
+        "bbox_xyxy": [
+          1007.3734130859375,
+          478.1180419921875,
+          1047.3643798828125,
+          526.7987670898438
+        ],
+        "distance": {
+          "depth_m": 33.69393544573063,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            35.47167909179183,
+            -6.3890749227273265,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.25381040573120117,
+        "bbox_xyxy": [
+          1116.4625244140625,
+          477.56805419921875,
+          1132.8671875,
+          514.1976928710938
+        ],
+        "distance": {
+          "depth_m": 43.373684564314125,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            45.14690808561314,
+            -11.590550211398815,
+            0.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "filename": "nuim_e505108ea2e94a1886148b643c11b5f5.jpg",
+    "detections": [
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.7398681640625,
+        "bbox_xyxy": [
+          876.5884399414062,
+          536.4785766601562,
+          895.892822265625,
+          573.2342529296875
+        ],
+        "distance": {
+          "depth_m": 23.378591346352096,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            25.052003689230347,
+            -1.2259367931688927,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.6081796288490295,
+        "bbox_xyxy": [
+          833.9654541015625,
+          527.2886962890625,
+          858.470458984375,
+          567.068603515625
+        ],
+        "distance": {
+          "depth_m": 25.282436177360985,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            26.960122403926157,
+            -0.5372204596818244,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.49688127636909485,
+        "bbox_xyxy": [
+          819.5407104492188,
+          527.5151977539062,
+          842.0712280273438,
+          564.1954956054688
+        ],
+        "distance": {
+          "depth_m": 26.275801851161482,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            27.955319799821723,
+            -0.24298596510022277,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.40330037474632263,
+        "bbox_xyxy": [
+          888.71630859375,
+          509.7734069824219,
+          951.3402099609375,
+          574.4508056640625
+        ],
+        "distance": {
+          "depth_m": 23.02186240023108,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            24.691662233044894,
+            -1.8147048350693165,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.39906400442123413,
+        "bbox_xyxy": [
+          799.6971435546875,
+          522.28515625,
+          816.1976318359375,
+          552.877197265625
+        ],
+        "distance": {
+          "depth_m": 31.065200891431235,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            32.74797361593682,
+            0.2638311750658192,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.3457804024219513,
+        "bbox_xyxy": [
+          912.3080444335938,
+          512.2723999023438,
+          997.9197998046875,
+          572.1063842773438
+        ],
+        "distance": {
+          "depth_m": 23.661089381369905,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            25.326627449266375,
+            -2.514899147682691,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.33300143480300903,
+        "bbox_xyxy": [
+          944.6888427734375,
+          515.69189453125,
+          1001.1680908203125,
+          568.5546264648438
+        ],
+        "distance": {
+          "depth_m": 24.724576945604422,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            26.387344359971806,
+            -2.973537782635158,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.3034159541130066,
+        "bbox_xyxy": [
+          911.1563110351562,
+          512.203857421875,
+          950.953369140625,
+          574.2957763671875
+        ],
+        "distance": {
+          "depth_m": 23.057971605108776,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            24.726539228124253,
+            -2.0163658864100324,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.2943284809589386,
+        "bbox_xyxy": [
+          789.6702880859375,
+          516.6690063476562,
+          806.86083984375,
+          548.6859130859375
+        ],
+        "distance": {
+          "depth_m": 33.312896113049426,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            34.99739018984304,
+            0.5333812296415669,
+            -2.220446049250313e-16
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "filename": "nuim_9b43890878554889bbfdf1611578a561.jpg",
+    "detections": [
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.8093187808990479,
+        "bbox_xyxy": [
+          508.75482177734375,
+          587.9437255859375,
+          560.1250610351562,
+          668.138427734375
+        ],
+        "distance": {
+          "depth_m": 10.818191896849282,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            12.513552151356055,
+            2.4290885910626607,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.792041540145874,
+        "bbox_xyxy": [
+          614.3063354492188,
+          565.047607421875,
+          651.7446899414062,
+          631.1224365234375
+        ],
+        "distance": {
+          "depth_m": 13.721106250669056,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            15.413968625205909,
+            2.0053139085321066,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.770706057548523,
+        "bbox_xyxy": [
+          563.532470703125,
+          575.301513671875,
+          606.5941162109375,
+          648.792236328125
+        ],
+        "distance": {
+          "depth_m": 12.16733976992785,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            13.861593174394203,
+            2.2409748563439247,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.4446921646595001,
+        "bbox_xyxy": [
+          1498.6123046875,
+          510.79376220703125,
+          1544.146484375,
+          539.5947265625
+        ],
+        "distance": {
+          "depth_m": 37.95095590331331,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            39.50234619219563,
+            -21.25402843045506,
+            0.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "filename": "nuim_14da576de3a54070bafee3f57dd4acf0.jpg",
+    "detections": []
+  },
+  {
+    "filename": "nuim_eae991a936414dd9bff5da40ff1e4d8f.jpg",
+    "detections": [
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.8843273520469666,
+        "bbox_xyxy": [
+          1099.0802001953125,
+          533.424072265625,
+          1240.7578125,
+          699.747314453125
+        ],
+        "distance": {
+          "depth_m": 9.133144437768715,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            10.798206276036229,
+            -2.515873657446311,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.8536564707756042,
+        "bbox_xyxy": [
+          1263.5692138671875,
+          586.1624145507812,
+          1325.7862548828125,
+          699.88525390625
+        ],
+        "distance": {
+          "depth_m": 9.073581716163508,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            10.733181322712225,
+            -3.408649429860839,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.821185290813446,
+        "bbox_xyxy": [
+          1560.3359375,
+          557.8106689453125,
+          1593.35595703125,
+          608.4591674804688
+        ],
+        "distance": {
+          "depth_m": 15.914448708438078,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            17.53631430112107,
+            -9.614478004590966,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.8087204098701477,
+        "bbox_xyxy": [
+          1491.9659423828125,
+          565.2705078125,
+          1542.3248291015625,
+          639.2271728515625
+        ],
+        "distance": {
+          "depth_m": 12.6533620770672,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            14.290897291888285,
+            -7.035188928992634,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.7849221229553223,
+        "bbox_xyxy": [
+          1390.781005859375,
+          552.3131103515625,
+          1429.2568359375,
+          613.7449951171875
+        ],
+        "distance": {
+          "depth_m": 15.32126500646134,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            16.95793674193005,
+            -7.190490466075381,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.7792226076126099,
+        "bbox_xyxy": [
+          1317.8204345703125,
+          536.614013671875,
+          1347.763671875,
+          589.4036254882812
+        ],
+        "distance": {
+          "depth_m": 19.15665721580054,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            20.789773443851765,
+            -7.792125580937201,
+            2.220446049250313e-16
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.7232273817062378,
+        "bbox_xyxy": [
+          1067.767822265625,
+          527.0709228515625,
+          1136.659423828125,
+          655.2279663085938
+        ],
+        "distance": {
+          "depth_m": 11.645306570923552,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            13.310046899138959,
+            -2.5817373417411194,
+            -2.220446049250313e-16
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.7154197096824646,
+        "bbox_xyxy": [
+          1032.093017578125,
+          536.7261962890625,
+          1064.5482177734375,
+          598.9326171875
+        ],
+        "distance": {
+          "depth_m": 17.743259330016823,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            19.404525786671833,
+            -3.181999555866603,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.6987797021865845,
+        "bbox_xyxy": [
+          1257.0203857421875,
+          532.302978515625,
+          1281.7373046875,
+          574.3671875
+        ],
+        "distance": {
+          "depth_m": 22.66450711273758,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            24.296102807737604,
+            -8.059302831774595,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.6782474517822266,
+        "bbox_xyxy": [
+          1009.4592895507812,
+          536.580078125,
+          1034.1251220703125,
+          577.5255126953125
+        ],
+        "distance": {
+          "depth_m": 22.134459779161578,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            23.793863319678536,
+            -3.509832663657889,
+            2.220446049250313e-16
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.5413849353790283,
+        "bbox_xyxy": [
+          967.2734375,
+          519.5787963867188,
+          991.456787109375,
+          557.2432861328125
+        ],
+        "distance": {
+          "depth_m": 28.91094355572862,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            30.56986174363516,
+            -3.625054391530357,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.5363211631774902,
+        "bbox_xyxy": [
+          1194.1142578125,
+          505.30462646484375,
+          1256.447265625,
+          564.65234375
+        ],
+        "distance": {
+          "depth_m": 25.693375396116817,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            27.32404576029858,
+            -8.226627707387149,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.5032724738121033,
+        "bbox_xyxy": [
+          939.8798828125,
+          490.04119873046875,
+          959.1810302734375,
+          534.7372436523438
+        ],
+        "distance": {
+          "depth_m": 43.677614067371124,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            45.331885512890835,
+            -4.462964408366166,
+            2.220446049250313e-16
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.39907339215278625,
+        "bbox_xyxy": [
+          933.9568481445312,
+          488.5871887207031,
+          954.6868286132812,
+          535.1742553710938
+        ],
+        "distance": {
+          "depth_m": 43.259088545548636,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            44.914686940295866,
+            -4.243789208266238,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.3952159881591797,
+        "bbox_xyxy": [
+          1070.118896484375,
+          524.558837890625,
+          1117.682373046875,
+          632.3399658203125
+        ],
+        "distance": {
+          "depth_m": 13.533787909980974,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            15.196567078280504,
+            -2.912387733805297,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.37516483664512634,
+        "bbox_xyxy": [
+          960.2670288085938,
+          500.11444091796875,
+          989.65087890625,
+          555.3530883789062
+        ],
+        "distance": {
+          "depth_m": 29.75883230878312,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            31.417753967437335,
+            -3.628974440670094,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.3662257790565491,
+        "bbox_xyxy": [
+          1192.1630859375,
+          505.32012939453125,
+          1236.735595703125,
+          560.3738403320312
+        ],
+        "distance": {
+          "depth_m": 27.27939991490259,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            28.90846087793119,
+            -8.498163723550112,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.3628964424133301,
+        "bbox_xyxy": [
+          1171.3433837890625,
+          504.608154296875,
+          1199.62890625,
+          550.0985717773438
+        ],
+        "distance": {
+          "depth_m": 32.022564577586145,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            33.647268969351856,
+            -9.235579608740068,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.3455067574977875,
+        "bbox_xyxy": [
+          964.026611328125,
+          511.8797302246094,
+          990.00439453125,
+          555.8697509765625
+        ],
+        "distance": {
+          "depth_m": 29.521264591498188,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            31.18006535911711,
+            -3.6474831336031253,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.31734663248062134,
+        "bbox_xyxy": [
+          1216.86865234375,
+          507.01483154296875,
+          1256.2060546875,
+          563.213134765625
+        ],
+        "distance": {
+          "depth_m": 26.18119629857336,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            27.809479270527575,
+            -8.619555220944164,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.2909911870956421,
+        "bbox_xyxy": [
+          1166.7186279296875,
+          504.45623779296875,
+          1204.041259765625,
+          567.29150390625
+        ],
+        "distance": {
+          "depth_m": 24.87421880324733,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            26.511328005232265,
+            -7.169523256599789,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.25482919812202454,
+        "bbox_xyxy": [
+          1155.06298828125,
+          505.7084655761719,
+          1203.7984619140625,
+          583.8510131835938
+        ],
+        "distance": {
+          "depth_m": 20.477402718964772,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            22.12272560989131,
+            -5.803290323343069,
+            0.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "filename": "nuim_6a53ee39aaae486f8212543496cffbe4.jpg",
+    "detections": [
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.661903440952301,
+        "bbox_xyxy": [
+          777.509033203125,
+          465.96197509765625,
+          818.3106689453125,
+          486.4736328125
+        ],
+        "distance": {
+          "depth_m": 52.21770734231663,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            53.64293958947743,
+            -4.737662841019197,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.6168294548988342,
+        "bbox_xyxy": [
+          815.5816650390625,
+          466.5876770019531,
+          859.4052124023438,
+          488.4654235839844
+        ],
+        "distance": {
+          "depth_m": 49.988353866613295,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            51.335484017629554,
+            -6.087898134199071,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.5944774150848389,
+        "bbox_xyxy": [
+          856.3233642578125,
+          466.0823059082031,
+          895.9555053710938,
+          489.5903015136719
+        ],
+        "distance": {
+          "depth_m": 48.968116905013225,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            50.2384305576558,
+            -7.4494267650141275,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.5938816666603088,
+        "bbox_xyxy": [
+          738.857666015625,
+          464.924560546875,
+          780.03759765625,
+          485.580078125
+        ],
+        "distance": {
+          "depth_m": 53.013314775406464,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            54.52405939312953,
+            -3.212280886577647,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.4867934584617615,
+        "bbox_xyxy": [
+          962.47216796875,
+          470.0013732910156,
+          1000.0519409179688,
+          489.0171813964844
+        ],
+        "distance": {
+          "depth_m": 50.75022964680139,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            51.77635060602557,
+            -11.921275123215892,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.433899462223053,
+        "bbox_xyxy": [
+          1001.080322265625,
+          456.36083984375,
+          1042.783203125,
+          488.25567626953125
+        ],
+        "distance": {
+          "depth_m": 52.20589187395922,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            53.122625278707346,
+            -13.943259320001712,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.42041531205177307,
+        "bbox_xyxy": [
+          893.2738037109375,
+          465.5950927734375,
+          938.2738037109375,
+          489.64813232421875
+        ],
+        "distance": {
+          "depth_m": 49.28815145219231,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            50.47147569212369,
+            -9.033444891413266,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.386002779006958,
+        "bbox_xyxy": [
+          1033.809814453125,
+          456.8565368652344,
+          1070.31591796875,
+          488.7287902832031
+        ],
+        "distance": {
+          "depth_m": 51.84813088528825,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            52.70101652722531,
+            -15.088939971152659,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.3630373477935791,
+        "bbox_xyxy": [
+          1047.829833984375,
+          456.90032958984375,
+          1102.8212890625,
+          491.4739990234375
+        ],
+        "distance": {
+          "depth_m": 48.484558840164105,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            49.336433581387745,
+            -15.011078774324536,
+            0.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "filename": "nuim_373d8ee01cc74db1b5fcdb33c57abe8d.jpg",
+    "detections": [
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.8669646978378296,
+        "bbox_xyxy": [
+          1023.1116943359375,
+          532.1542358398438,
+          1149.088623046875,
+          595.23681640625
+        ],
+        "distance": {
+          "depth_m": 18.339936009182313,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            19.997219038687675,
+            -3.8364596204045327,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.8497675061225891,
+        "bbox_xyxy": [
+          1080.1507568359375,
+          614.0530395507812,
+          1138.28076171875,
+          704.38037109375
+        ],
+        "distance": {
+          "depth_m": 8.957415349173553,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            10.62541610904729,
+            -2.034421235750042,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.8319488167762756,
+        "bbox_xyxy": [
+          106.1166763305664,
+          503.6734619140625,
+          153.74688720703125,
+          574.7342529296875
+        ],
+        "distance": {
+          "depth_m": 22.5579536783504,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            24.314665671446562,
+            12.398145259859845,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.8295338749885559,
+        "bbox_xyxy": [
+          57.914634704589844,
+          502.3695373535156,
+          111.548828125,
+          576.497314453125
+        ],
+        "distance": {
+          "depth_m": 22.08385027061522,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            23.843867914255874,
+            12.94113811836132,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.8208261132240295,
+        "bbox_xyxy": [
+          1186.16943359375,
+          529.56005859375,
+          1316.236572265625,
+          597.825439453125
+        ],
+        "distance": {
+          "depth_m": 17.742435610614862,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            19.386175242167866,
+            -6.047682848880357,
+            -2.220446049250313e-16
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.7725294828414917,
+        "bbox_xyxy": [
+          174.1945037841797,
+          516.8092041015625,
+          209.09361267089844,
+          580.6602783203125
+        ],
+        "distance": {
+          "depth_m": 21.098250957705922,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            22.843566443413607,
+            10.54250825980346,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.7650116086006165,
+        "bbox_xyxy": [
+          1514.46142578125,
+          783.29150390625,
+          1586.354736328125,
+          900.0
+        ],
+        "distance": {
+          "depth_m": null,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reason": "ground contact is clipped"
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.7413032650947571,
+        "bbox_xyxy": [
+          950.0413818359375,
+          548.9443969726562,
+          974.2711181640625,
+          590.535888671875
+        ],
+        "distance": {
+          "depth_m": 19.29266563193656,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            20.960265520488626,
+            -2.1546651117116413,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.740673303604126,
+        "bbox_xyxy": [
+          256.927978515625,
+          511.51214599609375,
+          299.8424987792969,
+          575.8056640625
+        ],
+        "distance": {
+          "depth_m": 22.37331213478776,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            24.11291582603514,
+            9.6018646266323,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.7269160151481628,
+        "bbox_xyxy": [
+          1311.83251953125,
+          532.82763671875,
+          1419.272705078125,
+          597.7098388671875
+        ],
+        "distance": {
+          "depth_m": 17.644761146066134,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            19.2787274293105,
+            -7.645137202637855,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.7175050973892212,
+        "bbox_xyxy": [
+          989.7311401367188,
+          565.3637084960938,
+          1021.5655517578125,
+          623.5635986328125
+        ],
+        "distance": {
+          "depth_m": 14.47666493651349,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            16.14439402777915,
+            -2.108050974573761,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.6358528733253479,
+        "bbox_xyxy": [
+          917.5294189453125,
+          525.0323486328125,
+          942.891357421875,
+          571.231689453125
+        ],
+        "distance": {
+          "depth_m": 23.93496750526709,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            25.603188020324993,
+            -2.0777606411159204,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.6298779845237732,
+        "bbox_xyxy": [
+          927.1617431640625,
+          525.1776123046875,
+          955.342529296875,
+          577.7975463867188
+        ],
+        "distance": {
+          "depth_m": 22.125569955853457,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            23.793529891343432,
+            -2.1107897723922124,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.5594548583030701,
+        "bbox_xyxy": [
+          236.81979370117188,
+          511.0719299316406,
+          272.268310546875,
+          574.0843505859375
+        ],
+        "distance": {
+          "depth_m": 22.815009006061906,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            24.558485651945347,
+            10.232766424662746,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.5071172714233398,
+        "bbox_xyxy": [
+          903.998046875,
+          524.5559692382812,
+          919.1881713867188,
+          555.301513671875
+        ],
+        "distance": {
+          "depth_m": 29.84317555316534,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            31.51108571347494,
+            -2.159774275332947,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.4699188470840454,
+        "bbox_xyxy": [
+          889.978515625,
+          523.523681640625,
+          908.19287109375,
+          551.12353515625
+        ],
+        "distance": {
+          "depth_m": 31.913642414915753,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            33.58260397098622,
+            -1.9988260941578535,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.4366734027862549,
+        "bbox_xyxy": [
+          1412.030029296875,
+          541.169189453125,
+          1445.4644775390625,
+          597.1566162109375
+        ],
+        "distance": {
+          "depth_m": 17.67696170599782,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            19.305295748593636,
+            -8.5661956023523,
+            2.220446049250313e-16
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.3560817539691925,
+        "bbox_xyxy": [
+          896.3265380859375,
+          527.6732177734375,
+          911.76416015625,
+          554.7901611328125
+        ],
+        "distance": {
+          "depth_m": 30.08689147634823,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            31.755785904581025,
+            -2.0001334520095675,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.33222171664237976,
+        "bbox_xyxy": [
+          238.53660583496094,
+          510.1690673828125,
+          296.68707275390625,
+          576.7965698242188
+        ],
+        "distance": {
+          "depth_m": 22.10570362062367,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            23.845780557932855,
+            9.680658096870689,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.33091259002685547,
+        "bbox_xyxy": [
+          929.315673828125,
+          534.9136352539062,
+          958.0701904296875,
+          583.20263671875
+        ],
+        "distance": {
+          "depth_m": 20.832223814217887,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            22.500657807606515,
+            -2.0264347568147674,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.32391074299812317,
+        "bbox_xyxy": [
+          1491.03662109375,
+          530.797607421875,
+          1533.895263671875,
+          557.1806640625
+        ],
+        "distance": {
+          "depth_m": 28.063594378908057,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            29.649788343093576,
+            -15.511195019355283,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.3112327456474304,
+        "bbox_xyxy": [
+          909.9652709960938,
+          525.6539916992188,
+          930.959228515625,
+          560.6954956054688
+        ],
+        "distance": {
+          "depth_m": 27.54023571883413,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            29.207929890231334,
+            -2.18290058633865,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.28900304436683655,
+        "bbox_xyxy": [
+          944.9832763671875,
+          537.5543212890625,
+          976.0653076171875,
+          588.3624267578125
+        ],
+        "distance": {
+          "depth_m": 19.72276217934596,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            21.39023474256927,
+            -2.1777595031221755,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.26095885038375854,
+        "bbox_xyxy": [
+          220.62588500976562,
+          511.85968017578125,
+          259.9403076171875,
+          573.900390625
+        ],
+        "distance": {
+          "depth_m": 22.853432506836754,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            24.59863520933545,
+            10.514778417691963,
+            -2.220446049250313e-16
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "filename": "nuim_b94150ddfff94709a871f9c41e43185d.jpg",
+    "detections": [
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.7487046718597412,
+        "bbox_xyxy": [
+          1020.1787109375,
+          504.4757080078125,
+          1089.772216796875,
+          626.5762329101562
+        ],
+        "distance": {
+          "depth_m": 12.060927897746879,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            13.828288182845682,
+            -2.5605382141789774,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.6574155688285828,
+        "bbox_xyxy": [
+          1082.2642822265625,
+          501.57501220703125,
+          1155.5711669921875,
+          627.822265625
+        ],
+        "distance": {
+          "depth_m": 11.939125159207492,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            13.704830994304345,
+            -3.146368579935553,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.5529258847236633,
+        "bbox_xyxy": [
+          973.2376098632812,
+          500.4417419433594,
+          994.7210693359375,
+          544.413330078125
+        ],
+        "distance": {
+          "depth_m": 25.63006432227333,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            27.406517687079102,
+            -3.980009939245705,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 0,
+        "class_name": "cone",
+        "confidence": 0.4991157352924347,
+        "bbox_xyxy": [
+          976.29443359375,
+          502.785400390625,
+          999.11328125,
+          548.7430419921875
+        ],
+        "distance": {
+          "depth_m": 24.203545253287174,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            25.979043530433028,
+            -3.8304521396285254,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.4512771666049957,
+        "bbox_xyxy": [
+          1013.2709350585938,
+          504.57000732421875,
+          1064.2020263671875,
+          603.8168334960938
+        ],
+        "distance": {
+          "depth_m": 14.143864111245659,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            15.91251903690117,
+            -2.8169473435476386,
+            0.0
+          ]
+        }
+      },
+      {
+        "class_id": 1,
+        "class_name": "barrier",
+        "confidence": 0.34519559144973755,
+        "bbox_xyxy": [
+          1060.791259765625,
+          497.9219055175781,
+          1140.2459716796875,
+          625.8873291015625
+        ],
+        "distance": {
+          "depth_m": 12.097245096364967,
+          "calibration_source": "dataset",
+          "estimated": true,
+          "output_quantity": "camera_forward_depth_m",
+          "method": "ground_plane",
+          "reference_point": "bbox bottom-centre ground contact",
+          "assumptions": [
+            "locally flat road at ego z=0",
+            "visible object ground contact"
+          ],
+          "ego_contact_point_m": [
+            13.863460958633741,
+            -3.0091336116868868,
+            0.0
+          ]
+        }
+      }
+    ]
+  }
+]

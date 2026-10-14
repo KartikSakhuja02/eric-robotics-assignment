@@ -1,0 +1,6 @@
+{
+  "review_method": "Visual review of every generated crop; only clear front-facing STOP signs accepted",
+  "verified_ids": ["N0005", "N0012", "N0014", "N0016", "N0020", "N0021", "N0022", "N0024", "N0025", "N0026", "N0031", "N0039", "N0040", "N0048"],
+  "rejected_examples": ["construction warning diamonds", "no-entry signs", "give-way signs", "direction arrows", "rear faces"],
+  "limitations": ["Model-assisted search is not an exhaustive annotation audit", "New box localization comes from the pretrained detector and was visually checked"]
+}

@@ -1,0 +1,6 @@
+{
+  "verified_ids": ["V0003_00", "V0004_00", "V0005_00", "V0007_00", "V0009_00", "V0015_00", "V0017_05", "V0019_00", "V0022_00", "V0023_00", "V0024_01", "V0025_02", "V0027_00", "V0027_01", "V0029_00", "V0029_01", "V0030_01", "V0033_00", "V0034_00", "V0035_00", "V0036_01", "V0036_02", "V0038_00", "V0038_01", "V0039_00", "V0040_00", "V0041_00", "V0042_02", "V0043_01", "V0044_00", "V0046_00", "V0047_00", "V0048_00", "V0048_01", "V0049_01", "V0049_02", "V0049_04", "V0052_00", "V0053_00", "V0055_02", "V0056_00"],
+  "review_method": "Assistant visually inspected all 141 traffic-sign crops in four contact sheets; retained readable STOP or recognizable red octagonal hand stop faces. No-entry, yield, arrows, sign backs, warnings and ambiguous crops excluded.",
+  "box_source": "BDD100K official traffic-sign annotations; subclass supplied by visual review",
+  "limitations": "Teacher-assisted candidate selection biases coverage toward detectable stops; not an exhaustive stop-sign benchmark. Tiny, oblique or missed signs can remain unlabelled. International hand stop faces are included."
+}

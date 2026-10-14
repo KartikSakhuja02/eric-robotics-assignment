@@ -1,0 +1,35 @@
+{
+  "splits": {
+    "train": {
+      "images": 1224,
+      "negative_images": 0,
+      "instances": {
+        "cone": 4152,
+        "barrier": 5630,
+        "stop_sign": 301
+      },
+      "missing_classes": []
+    },
+    "val": {
+      "images": 177,
+      "negative_images": 0,
+      "instances": {
+        "cone": 578,
+        "barrier": 892,
+        "stop_sign": 32
+      },
+      "missing_classes": []
+    },
+    "test": {
+      "images": 165,
+      "negative_images": 0,
+      "instances": {
+        "cone": 783,
+        "barrier": 795,
+        "stop_sign": 18
+      },
+      "missing_classes": []
+    }
+  },
+  "errors": []
+}

@@ -1,0 +1,50 @@
+{
+  "model": "models/baseline_openvino_model",
+  "device": "intel:cpu",
+  "requested_precision": 32,
+  "artifact_precision": "FP32",
+  "evaluation_settings": {
+    "batch": 1,
+    "imgsz": 640,
+    "rect": false,
+    "confidence_floor": 0.001,
+    "nms_iou": 0.7,
+    "max_detections": 50,
+    "precision_recall_operating_point": "framework's best mean-F1 confidence, not a fixed 0.25 threshold"
+  },
+  "metrics": {
+    "metrics/precision(B)": 0.7651749179232223,
+    "metrics/recall(B)": 0.6852393054039907,
+    "metrics/mAP50(B)": 0.7135229465904022,
+    "metrics/mAP50-95(B)": 0.45670760490102497,
+    "fitness": 0.45670760490102497
+  },
+  "per_class": [
+    {
+      "class_id": 0,
+      "name": "cone",
+      "precision": 0.7553131557257422,
+      "recall": 0.5376756066411239,
+      "mAP50": 0.6051967689860986,
+      "mAP50_95": 0.2905129905519432
+    },
+    {
+      "class_id": 1,
+      "name": "barrier",
+      "precision": 0.6622944104852486,
+      "recall": 0.5180423095708481,
+      "mAP50": 0.5514831818962189,
+      "mAP50_95": 0.28942371304002096
+    },
+    {
+      "class_id": 2,
+      "name": "stop_sign",
+      "precision": 0.8779171875586761,
+      "recall": 1.0,
+      "mAP50": 0.9838888888888888,
+      "mAP50_95": 0.790186111111111
+    }
+  ],
+  "split": "custom grouped test split",
+  "distance_accuracy": "not measured: selected source annotations contain no object-distance ground truth"
+}

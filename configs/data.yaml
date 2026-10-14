@@ -1,0 +1,8 @@
+path: C:/Users/karti/OneDrive/Documents/Eric Robotics/data/processed_v2
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: cone
+  1: barrier
+  2: stop_sign

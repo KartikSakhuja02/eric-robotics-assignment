@@ -1,0 +1,8 @@
+assumed_heights_m:
+  cone: 0.5
+  barrier: 0.9
+  stop_sign: 0.75
+notes:
+  - These are explicit demonstration priors, not measured dataset object dimensions.
+  - Calibrated nuImages cones and barriers use ground-plane geometry rather than these size priors.
+  - Stop-sign dimensions vary; size-prior depth is approximate.

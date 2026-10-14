@@ -1,0 +1,8 @@
+{
+  "images_scanned": 1970,
+  "images_with_proposals": 56,
+  "traffic_sign_crops": 141,
+  "stop_proposals": 62,
+  "labels_verified": false,
+  "proposal_model": "yolo11n.pt"
+}

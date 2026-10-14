@@ -1,0 +1,32 @@
+{
+  "filename": "nuim_007fc9c3b2244f86b5b8303257926cce.jpg",
+  "ground_to_undistorted_image_homography": [
+    [
+      818.1655930934355,
+      -1287.5011122527753,
+      -1354.7701245173655
+    ],
+    [
+      490.61061311274756,
+      -1.953659238762557,
+      1110.1930713819902
+    ],
+    [
+      0.9999676310578047,
+      -0.00611589953328695,
+      -1.6800991422801337
+    ]
+  ],
+  "extent_m": {
+    "ego_x": [
+      2,
+      30
+    ],
+    "ego_y": [
+      -10,
+      10
+    ]
+  },
+  "assumed_ground_plane_z_m": 0,
+  "limitations": "Only flat-road points obey this projection; slopes and elevated objects cause distortion"
+}

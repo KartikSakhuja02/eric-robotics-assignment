@@ -1,0 +1,40 @@
+{
+  "checks": [
+    "baseline_test",
+    "cpu_fp32_test",
+    "gpu_fp16_test",
+    "openvino_fp32_test",
+    "openvino_int8_test",
+    "benchmark_cpu_fp32",
+    "benchmark_gpu_fp32",
+    "benchmark_gpu_fp16",
+    "benchmark_openvino_fp32",
+    "benchmark_openvino_int8"
+  ],
+  "group_leakage": false,
+  "quantization_calibration_train_only": true,
+  "demo_images": 16,
+  "demo_detections": {
+    "stop_sign": 5,
+    "barrier": 104,
+    "cone": 48
+  },
+  "demo_geometry": {
+    "estimated": 156,
+    "assumed_fov": 5,
+    "dataset": 152,
+    "unavailable": 1
+  },
+  "video": {
+    "frames": 64,
+    "fps": 2.0,
+    "seconds": 32.0
+  },
+  "model_sha256": "4475ce287da8066bb2e9dfa5e213f6a2dc1955faf6fd0af3a44bedd3dd260fed",
+  "archive_sizes_bytes": {
+    "solesensei_bdd100k.zip": 8166127525,
+    "nuimages-v1.0-all-metadata.tgz": 639386088,
+    "nuimages-v1.0-all-samples.tgz": 16381401772
+  },
+  "remaining_free_gib": 22.20770263671875
+}

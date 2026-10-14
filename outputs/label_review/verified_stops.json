@@ -1,0 +1,12 @@
+{
+  "review_method": "Visual review of cropped BDD traffic-sign annotations; proposals were not accepted automatically",
+  "class_definition": "Front-facing red octagonal stop signs, including legible STOP text and clear raised-hand stop signs; warning-symbol and no-entry signs excluded",
+  "verified_ids": [
+    "B0001_01", "B0002_00", "B0002_02", "B0006_00", "B0007_02", "B0008_01", "B0011_00", "B0013_00", "B0013_02",
+    "B0017_02", "B0020_01", "B0023_00", "B0023_02", "B0024_01", "B0028_02", "B0029_05", "B0035_00", "B0038_00",
+    "B0042_01", "B0044_00", "B0044_01", "B0045_00", "B0045_02", "B0048_00", "B0050_00", "B0050_01", "B0051_00", "B0051_01", "B0052_00", "B0052_01",
+    "B0056_00", "B0058_01", "B0059_02", "B0064_01", "B0066_00", "B0068_00", "B0080_00", "B0083_00", "B0085_06", "B0089_00", "B0090_00", "B0092_00", "B0094_00", "B0095_02"
+  ],
+  "other_candidate_policy": "Exclude unverified images rather than turning uncertain signs into negative labels",
+  "limitations": ["Model-assisted candidate selection can miss stop signs", "Small or occluded signs require further review", "Bounding boxes inherit the source annotation policy"]
+}

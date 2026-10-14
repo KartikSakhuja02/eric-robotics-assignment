@@ -1,0 +1,50 @@
+{
+  "model": "C:\\Users\\karti\\OneDrive\\Documents\\Eric Robotics\\models\\baseline.pt",
+  "device": "0",
+  "requested_precision": 32,
+  "artifact_precision": "FP32",
+  "evaluation_settings": {
+    "batch": 1,
+    "imgsz": 640,
+    "rect": false,
+    "confidence_floor": 0.001,
+    "nms_iou": 0.7,
+    "max_detections": 50,
+    "precision_recall_operating_point": "framework's best mean-F1 confidence, not a fixed 0.25 threshold"
+  },
+  "metrics": {
+    "metrics/precision(B)": 0.7650469096998037,
+    "metrics/recall(B)": 0.6852898670902987,
+    "metrics/mAP50(B)": 0.7136025487642295,
+    "metrics/mAP50-95(B)": 0.45668671594041654,
+    "fitness": 0.45668671594041654
+  },
+  "per_class": [
+    {
+      "class_id": 0,
+      "name": "cone",
+      "precision": 0.7550052609786021,
+      "recall": 0.5376756066411239,
+      "mAP50": 0.6051718165153861,
+      "mAP50_95": 0.2908719592881271
+    },
+    {
+      "class_id": 1,
+      "name": "barrier",
+      "precision": 0.6623599717379408,
+      "recall": 0.5181939946297723,
+      "mAP50": 0.5517469408884135,
+      "mAP50_95": 0.2890020774220114
+    },
+    {
+      "class_id": 2,
+      "name": "stop_sign",
+      "precision": 0.8777754963828683,
+      "recall": 1.0,
+      "mAP50": 0.9838888888888888,
+      "mAP50_95": 0.790186111111111
+    }
+  ],
+  "split": "custom grouped test split",
+  "distance_accuracy": "not measured: selected source annotations contain no object-distance ground truth"
+}

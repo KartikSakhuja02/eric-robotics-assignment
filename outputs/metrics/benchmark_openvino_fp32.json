@@ -1,0 +1,109 @@
+{
+  "weights": "models\\baseline_openvino_model",
+  "device": "intel:cpu",
+  "requested_precision": 32,
+  "artifact_precision": "FP32",
+  "artifact_bytes": 10810372,
+  "imgsz": [
+    640,
+    640
+  ],
+  "batch": 1,
+  "conf": 0.25,
+  "iou": 0.7,
+  "max_detections": 50,
+  "warmup": 20,
+  "iterations_per_repeat": 100,
+  "repeats": 3,
+  "torch_threads": 4,
+  "opencv_threads": 4,
+  "seed": 42,
+  "frames": [
+    "nuim_4a4c4702d6a14f3ab6955282552a943b.jpg",
+    "nuim_7f6ba5f4ace74f2487e3dcdd4defee49.jpg",
+    "nuim_a5b6b9f319114d8dbe0533ba40094f2f.jpg",
+    "nuim_2de64f3da0d64b6abe286a442a9f4cc9.jpg",
+    "nuim_dc5d4b2d11154fbab16c4c9aa596a097.jpg",
+    "nuim_cb9d957502b04948acc358e81006364f.jpg",
+    "nuim_7c835a82b46a4444b2462417dc24e570.jpg",
+    "bdd_val_c75e23fe-086d84a6.jpg",
+    "nuim_d042532f7572477eb03d7d62d0fabc3b.jpg",
+    "nuim_56da37e218624fb9bd77d47bbfbacd79.jpg",
+    "nuim_188dfa2b745144048ee855bfc3196da6.jpg",
+    "nuim_a08ae5f66a3c476e9d525a5cc8278716.jpg",
+    "nuim_ef106bd02b254cfb93a25574e39c313f.jpg",
+    "nuim_04b1abfba48345668009e7c204f1a5dc.jpg",
+    "nuim_950dc927a5f34b51a682c9a779a42704.jpg",
+    "nuim_b6a4b3220207444c833de0c0c2bfb5a0.jpg"
+  ],
+  "runs": [
+    {
+      "detector": {
+        "mean_ms": 39.31766200141283,
+        "median_ms": 38.101099999039434,
+        "p95_ms": 48.78939000554965,
+        "fps": 25.43386226688826
+      },
+      "annotated_pipeline": {
+        "mean_ms": 42.537421000306495,
+        "median_ms": 41.42810000485042,
+        "p95_ms": 51.476369993906694,
+        "fps": 23.508712481482945
+      }
+    },
+    {
+      "detector": {
+        "mean_ms": 36.240481000131695,
+        "median_ms": 35.0616999930935,
+        "p95_ms": 43.08296500166762,
+        "fps": 27.593452746843127
+      },
+      "annotated_pipeline": {
+        "mean_ms": 39.10633399995277,
+        "median_ms": 38.388799999665935,
+        "p95_ms": 47.06441000816994,
+        "fps": 25.57130514972863
+      }
+    },
+    {
+      "detector": {
+        "mean_ms": 38.439241999876685,
+        "median_ms": 36.27710000728257,
+        "p95_ms": 48.66085000248858,
+        "fps": 26.015081150747147
+      },
+      "annotated_pipeline": {
+        "mean_ms": 41.43688600015594,
+        "median_ms": 39.525700005469844,
+        "p95_ms": 51.31158999865874,
+        "fps": 24.133087606926754
+      }
+    }
+  ],
+  "runtime_properties": {
+    "EXECUTION_DEVICES": "['CPU']",
+    "INFERENCE_NUM_THREADS": "8",
+    "PERFORMANCE_HINT": "LATENCY",
+    "INFERENCE_PRECISION_HINT": "<Type: 'float32'>"
+  },
+  "detector": {
+    "mean_ms": 37.99912833380707,
+    "median_ms": 36.23844999674475,
+    "p95_ms": 47.70068999569048,
+    "fps": 26.316393134479345
+  },
+  "annotated_pipeline": {
+    "mean_ms": 41.02688033347173,
+    "median_ms": 39.486800000304356,
+    "p95_ms": 51.05502000369597,
+    "fps": 24.37426369911317
+  },
+  "timing_includes": "preprocessing, model, NMS; pipeline also adds geometry and drawing",
+  "timing_excludes": "disk reading/writing, video decoding/encoding, camera capture, model initialization",
+  "hardware": {
+    "platform": "Windows-10-10.0.26300-SP0",
+    "processor": "AMD Ryzen 7 7435HS",
+    "logical_cpus": 16,
+    "gpu": "NVIDIA GeForce RTX 2050"
+  }
+}

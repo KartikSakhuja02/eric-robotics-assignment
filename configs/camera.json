@@ -1,0 +1,11 @@
+{
+  "output_quantity": "camera_forward_depth_m",
+  "ground_plane_z_m": 0.0,
+  "min_box_height_px": 10,
+  "max_depth_m": 100,
+  "unknown_camera": {
+    "policy": "assumed_fov",
+    "horizontal_fov_deg": 90.0,
+    "assumptions": ["square pixels", "principal point at image centre", "unknown lens distortion treated as zero"]
+  }
+}

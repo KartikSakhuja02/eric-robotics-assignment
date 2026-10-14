@@ -1,0 +1,4 @@
+{
+  "openvino_int8_pipeline_speed_ratio": 1.3133451907943423,
+  "openvino_int8_map50_95_delta": -0.008897814988081232
+}
