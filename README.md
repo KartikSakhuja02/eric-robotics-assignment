@@ -164,4 +164,4 @@ Dataset access and redistribution remain subject to each source's terms. Ultraly
 - **Email:** kartik.sakhuja2004@gmail.com
 - **GitHub:** [KartikSakhuja02](https://github.com/KartikSakhuja02)
 
-The recruitment email specifies submission to a personal GitHub repository, which supersedes the attached assignment's conflicting repository sentence. Repository: [eric-robotics-assignment](https://github.com/KartikSakhuja02/eric-robotics-assignment). Confirmed submission deadline: **15 October 2026, 15:14 IST**.
+The recruitment email specifies submission to a personal GitHub repository, which supersedes the attached assignment's conflicting repository sentence. Repository: [eric-robotics-assignment](https://github.com/KartikSakhuja02/eric-robotics-assignment).
